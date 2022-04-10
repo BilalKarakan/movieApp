@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@model movieApp.web.Models.Movie
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,7 +13,7 @@
     <h1>Film Listesi</h1>
     <div id="filmler">
         <div class="film">
-            <p>@ViewBag.FilmAdi</p>
+            @*<p>@ViewBag.FilmAdi</p>
             <p>@ViewBag.FilmAciklama</p>
             <p>@ViewBag.FilmYonetmen</p>
             <p>
@@ -18,6 +21,18 @@
                     @foreach(var item in ViewBag.Oyuncular)
                     {
                         <li>@item</li>
+                    }
+                </ul>
+            </p>*@
+
+            <p>@Model.Title</p>
+            <p>@Model.Director</p>
+            <p>@Model.Director</p>
+            <p>
+                <ul>
+                    @foreach(var player in Model.Players)
+                    {
+                        <li>@player</li>
                     }
                 </ul>
             </p>
