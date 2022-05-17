@@ -3,9 +3,8 @@
     "",
     "\\movieApp.web",
     "\\movieApp.web\\Controllers",
-    "\\movieApp.web\\Models",
-    "\\movieApp.web\\Views"
+    "\\movieApp.web\\Models"
   ],
-  "SelectedNode": "\\movieApp.sln",
+  "SelectedNode": "\\movieApp.web\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }

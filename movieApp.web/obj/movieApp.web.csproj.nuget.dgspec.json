@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer\\Desktop\\BilalKarakan\\movieApp\\movieApp.web\\movieApp.web.csproj": {}
+    "c:\\Users\\Acer\\Desktop\\BilalKarakan\\movieApp\\movieApp.web\\movieApp.web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer\\Desktop\\BilalKarakan\\movieApp\\movieApp.web\\movieApp.web.csproj": {
+    "c:\\Users\\Acer\\Desktop\\BilalKarakan\\movieApp\\movieApp.web\\movieApp.web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\BilalKarakan\\movieApp\\movieApp.web\\movieApp.web.csproj",
+        "projectUniqueName": "c:\\Users\\Acer\\Desktop\\BilalKarakan\\movieApp\\movieApp.web\\movieApp.web.csproj",
         "projectName": "movieApp.web",
-        "projectPath": "C:\\Users\\Acer\\Desktop\\BilalKarakan\\movieApp\\movieApp.web\\movieApp.web.csproj",
+        "projectPath": "c:\\Users\\Acer\\Desktop\\BilalKarakan\\movieApp\\movieApp.web\\movieApp.web.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Desktop\\BilalKarakan\\movieApp\\movieApp.web\\obj\\",
+        "outputPath": "c:\\Users\\Acer\\Desktop\\BilalKarakan\\movieApp\\movieApp.web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
