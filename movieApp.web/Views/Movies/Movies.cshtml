@@ -1,8 +1,40 @@
-﻿<html> 
+﻿@model List<Movie>
+
+<html> 
     <head>
         <title></title>
+        <style>
+            .film{
+                border: 1px solid black;
+                margin-bottom: 10px;
+                padding: 10px;
+            }
+        </style>
     </head>
     <body>
-        Movies/Movies
+
+            @foreach (var movie in Model)
+                {   
+
+                <div id="filmler">
+                <div class="film">
+                    <p>@movie.Title</p>
+                    <p>@movie.Description</p>
+                    <p>@movie.Director</p>
+                    <p>
+                        <ul>
+                            @foreach(var player in movie.Players)
+                            {
+                                <li>@player</li>
+                            }
+                        </ul>
+                    </p> 
+
+                </div>
+                </div>   
+                }
+
+           
+        
     </body>
 </html>
